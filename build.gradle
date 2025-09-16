@@ -12,6 +12,8 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.springframework.boot:spring-boot-starter-mail' // eamil 보내기 용도
+    runtimeOnly 'com.mysql:mysql-connector-j' // MY SQL
 }
 
 test {
